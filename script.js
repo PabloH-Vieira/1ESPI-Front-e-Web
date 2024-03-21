@@ -43,8 +43,17 @@ document.write(texto4.length);
 
 //Concatenação
 document.write("<br>") //Pula linha
-let nome1 = "Pablo";
-document.write("Nome: "+ nome1)
+let nome1 = "Pablooooo";
+document.write("Nome: "+ nome1);
 
 let profissao = "Engenheiro de Software"
 document.write("<br>",nome1," é ",profissao) //o pular linha pode estar na concatenacao 
+
+//Condicionais If, Else
+if (nome1.length < 5){
+    document.write("Nome pequeno");
+}
+else if (nome1.length >= 5 && nome1.length<7)
+{document.write("<br>","nome médio")
+}
+else {document.write("<br>","<b>Nome Grande!</b>")}
