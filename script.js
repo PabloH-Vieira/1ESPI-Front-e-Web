@@ -37,6 +37,14 @@ console.log(texto3.slice(texto3.indexOf("pa"), texto.indexOf("ia"))) //Usando um
 
 // length - Mostra quantos caracteres tem a string
 let texto4 = "Ideias transformam o mundo"
-console.log(texto4.length)
-alert(texto4.length)
-document.write(texto4.length)
+console.log(texto4.length);
+// alert(texto4.length);
+document.write(texto4.length);
+
+//Concatenação
+document.write("<br>") //Pula linha
+let nome1 = "Pablo";
+document.write("Nome: "+ nome1)
+
+let profissao = "Engenheiro de Software"
+document.write("<br>",nome1," é ",profissao) //o pular linha pode estar na concatenacao 
