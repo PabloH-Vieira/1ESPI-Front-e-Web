@@ -1,2 +1,3 @@
 Lilás #CB6CE6
 Verde #16E483
+Fundo Cinza #212529

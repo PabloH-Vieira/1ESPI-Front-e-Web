@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+}
+.tabela{
+    border-style: solid;
+    border-color: #CB6CE6;
+    border-width: 3px;
+    border-radius: 12px;
+    width: 50%;
+    height: auto;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    background-color: #CB6CE6;
+    margin: none;
+}
+
+
+.fundo{
+    background-color: #343a40;
+}
+.rodape{
+    background-color: #212529;
+    height: 200px;
+    padding: 20px;
+}
