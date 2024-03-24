@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logoonlyimg.png">
     <link rel="stylesheet" href="/style.css">
-    <title>Gamer Station</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body class="fundo">
         <!--Cabeçalho-->
@@ -19,10 +19,10 @@
         <hr>
 
         <!--Tabela mais jogados-->
-        <div>
-        <table align="center" border="1">
+        <div id="ladoalado">
+        <table>
                 <h3 align="center">Os 5 mais jogados no momento!<h3></h3>
-            <thead>      
+            <thead class="cabecalho">      
                 <tr>
                     <th>Nome</th>
                     <th>Classificação</td>
@@ -33,25 +33,25 @@
             <tbody>
                 <tr>
                     <td><img src="./img/fortnite.jpg" alt="Fortnite" title="Fortnite" width="200" height=""><p align="center">Fortnite</p></td>
-                    <td align="center">1º</td>
+                    <td align="center" class="classificacao">1º</td>
                     <td align="center">Battle Royale</td>
                     <td><a href="https://store.epicgames.com/pt-BR/p/fortnite" align="center"><p <p align="center">Gratuito na Epic</p></a></td>
                 </tr>  
                 <tr>
                     <td><img src="./img/roblox.png" alt="Roblox" title="Roblox" width="200" height=""><p align="center">Roblox</p></td>
-                    <td align="center">2º</td>
+                    <td align="center" class="classificacao">2º</td>
                     <td align="center">Aventura</td>
                     <td><a href="https://www.xbox.com/pt-br/games/store/roblox/9nblgggzm6wm" align="center"><p <p align="center">Gratuito na Loja Windows</p></a></td>
                 </tr>  
                 <tr>
                     <td><img src="./img/pubg.jpeg" alt="PUBG" title="Player's Unknown Battlegrounds" width="200" height="200"><p align="center">PUBG</p></td>
-                    <td align="center">3º</td>
+                    <td align="center" class="classificacao">3º</td>
                     <td align="center">Battle Royale</td>  
                     <td><a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/"><p align="center">Gratuito na Steam</p></a></td>
                 </tr>
                 <tr>
                     <td><img src="./img/minecraft.jpg" alt="Minecraft" title="Minecraft" width="200" height="200"><p align="center"><p align="center">Minecraft</p></td>
-                    <td align="center">4º</td>
+                    <td align="center" class="classificacao">4º</td>
                     <td align="center">Aventura</td>  
                     <td><a href="https://www.minecraft.net/pt-br/store/minecraft-java-bedrock-edition-pc"><p align="center">R$150 no site oficial</p></a></a></td>
                 </tr>
@@ -62,13 +62,11 @@
                     <td><a href="https://www.leagueoflegends.com/pt-br/"><p <p align="center">Gratuito no site oficial</p></a></td>
             </tbody> 
         </table>
-        </div>
 
-        <!--Tabela mais jogados-->
-        <div>
+        <!--Tabela lançamentos-->
             <table class="tabela">
                     <h3 align="center">Pré-Venda dos Melhores Lançamentos!<h3></h3>
-                <thead id="cabecalho">     
+                <thead class="cabecalho">     
                     <tr>
                         <th>Nome</th>
                         <th>Data de lançamento</td>
@@ -111,6 +109,9 @@
         <footer>
             <h5>GamerStation@2024 - todos os direitos reservados </h5>
         </footer>
+        <i class="material-symbols-outlined">
+            download
+        </i>
     </div>
-        <script src="script.js"></script>
+<script src="script.js"></script>
 </body>

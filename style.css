@@ -1,27 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    margin: 0;
     font-family: "Montserrat", sans-serif;
     color: white;
+    margin: 0;
 
 }
-.tabela{
+
+table{
     border-style: solid;
     border-color: #CB6CE6;
     border-width: 3px;
     border-radius: 12px;
-    width: 50%;
-    height: auto;
-    padding: 12px;
+    width: 45%;
     box-sizing: border-box;
+    border-collapse: collapse;
+    margin-left: 1%;
 }
 
-#cabecalho{
+th{
     background-color: #CB6CE6;
     margin: none;
+    
 }
 
+td{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h3{
+    padding: 5px;
+    margin-top: 10px;
+    width: 45%;
+    display: inline-block;
+
+}
 
 .fundo{
     background-color: #343a40;
@@ -30,4 +46,31 @@
     background-color: #212529;
     height: 200px;
     padding: 20px;
+}
+
+.material-symbols-outlined {
+  
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: red;
+}
+
+#ladoalado{
+    display:inline;
+}
+
+.classificacao{
+    font-size: 2em;
+    color:#CB6CE6;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: #CB6CE6;
+    color: #16E483;
 }
