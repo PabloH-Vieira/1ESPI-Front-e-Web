@@ -4,6 +4,7 @@
     font-family: "Montserrat", sans-serif;
     color: white;
     margin: 0;
+    box-sizing: border-box;
 
 }
 
@@ -12,31 +13,33 @@ table{
     border-color: #CB6CE6;
     border-width: 3px;
     border-radius: 12px;
-    width: 45%;
-    box-sizing: border-box;
     border-collapse: collapse;
-    margin-left: 1%;
+    display: inline-block;
+}
+
+.containertable{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    align-items: center;
 }
 
 th{
     background-color: #CB6CE6;
     margin: none;
-    
 }
 
 td{
-    border-bottom: 1px solid white;
     border-top: 1px solid white;
     padding-top: 10px;
     padding-bottom: 5px;
 }
+tr{
+    max-height: 800px;
+}
 
 h3{
-    padding: 5px;
-    margin-top: 10px;
     width: 45%;
-    display: inline-block;
-
 }
 
 .fundo{
@@ -58,19 +61,14 @@ h3{
   color: red;
 }
 
-#ladoalado{
-    display:inline;
-}
 
 .classificacao{
     font-size: 2em;
     color:#CB6CE6;
 }
 
-a:link, a:visited{
-    text-decoration: none;
-}
-a:hover, a:active{
-    background-color: #CB6CE6;
-    color: #16E483;
-}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
