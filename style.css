@@ -22,6 +22,7 @@ table{
     width: 50%;
     padding: 20px;
     align-items: center;
+    margin:auto;
 }
 
 th{
@@ -38,8 +39,86 @@ tr{
     max-height: 800px;
 }
 
+h1{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+h2{
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 h3{
-    width: 45%;
+    text-align: center;
+    margin: auto;
+    padding: 3px;
+}
+
+ul{
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    background-color: #16E483;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-height: 40px;
+    z-index: 1;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.divimg{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+}
+
+.divimg img{
+   width: 60%;
+}
+
+img{
+    position: relative;
+    margin: auto;
+}
+
+#pesquisa_direita{
+    line-height: 40px;
+    float: right;
+    position: relative;
+    right: 5px;
+}
+li img{
+    position: relative;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li a:hover{
+    background-color: #78308c;
+    margin:0px;
+    height: 40px;
+} 
+li a:active{
+    background-color: white;
+    color: black;
 }
 
 .fundo{
